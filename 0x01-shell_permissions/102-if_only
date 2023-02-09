@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ $(ls -la hello |awk '{print $3}') == guillaume ]; then chown betty hello; fi;
