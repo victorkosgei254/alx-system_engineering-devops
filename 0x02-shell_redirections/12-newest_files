@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -printf "%t - %f\n" |sort -n 
+ls -lt | cut -d ' ' -f9 
